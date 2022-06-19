@@ -668,6 +668,7 @@ img {
 .online-input {
     width: 358px;
     height: 50px;
+    padding: 15px 15px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     font-style: Rregular;
@@ -1004,60 +1005,6 @@ fill: #000000;
     margin: -1px;
 }
 
-
-/* .checkbox__container {
-    position: relative;
-    width: 16px;
-    height: 15px;
-    margin-right: 8px;
-    cursor: pointer;
-} */
-
-/* .check-text span {
-    width: 16px;
-    height: 15px;
-    border: 2px solid var(--primary-text-color);
-    border-radius: 3px;
-    margin-right: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
-/* .check-icon {
-    fill: transparent;
-}
-
-.modal-check:checked + .check-text span {
-    background-color: var(--accent-color);
-    border: none;
-
-}
-
-.modal-check:checked + .check-text .check-icon {
-    fill: #FFFFFF;
-} */
-
-/* -------------иконка check-icon через ::before---------------- */
-
-/* .check-text::before {
-    content: "";
-    width: 16px;
-    height: 15px;
-    border: 2px solid var(--primary-text-color);
-    border-radius: 3px;
-    margin-right: 8px;
-    display: block;
-}
-
-.modal-check:checked + .check-text::before {
-    background-color: var(--accent-color);
-    background-image: url(../img/svg-image/svg6/vector.svg);
-    border: none;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
-
 .check-link {
     line-height: 1.46;
     color: var(--accent-color);
@@ -1091,16 +1038,3 @@ fill: #000000;
     color: var(--title-color);
         background-color: var(--accent-color);
 }
-
-/* .modal-check {
-    position: absolute;
-        white-space: nowrap;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
-        border: 0;
-        padding: 0;
-        clip: rect(0 0 0 0);
-        clip-path: inset(50%);
-        margin: -1px;
-} */
