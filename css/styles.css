@@ -620,7 +620,7 @@ img {
 }
 
 .online-section {
-    margin-left: 93px;
+    margin-left: auto;
 }
 
 .online-text {
@@ -867,9 +867,15 @@ img {
 }
 
 .modal-svg {
-width: 11px;
-height: 11px;
+width: 18px;
+height: 18px;
 fill: #000000;
+cursor: pointer;
+}
+
+.modal-svg:hover,
+.modal-svg:focus {
+    fill:var(--accent-color);
 }
 
 .modal-title {
@@ -881,6 +887,11 @@ fill: #000000;
          letter-spacing: 3%;
          color: var(--primary-text-color);
          margin-bottom: 12px;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
 }
 
 .modal-field {
@@ -1011,17 +1022,14 @@ fill: #000000;
 }
 
 .modal-buttons {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    
      width: 200px;
      height: 50px;
-     margin-bottom: 50px;
-     margin-top: 30px;
+     margin: 0 auto;
     font-weight: 700;
      font-size:  16px;
       line-height: 1.87;
-       letter-spacing: 6%;
+       letter-spacing: 0.06em;
         align-items: center;
         cursor: pointer;
         color: var(--title-color);

@@ -240,7 +240,9 @@
     
     </section>
 
-        <!-- <----------------Section 4 Clients--------------> 
+<!-- --Section 4 Clients-- -->
+
+
          <section class="clients">
          <div class="container">
          <h2 class="clients-title">Постоянные клиенты</h2>
@@ -321,6 +323,7 @@
    
         <div class="online-section">
             <p class="online-text">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
+           <form class="online-form">
             <input type="email" class="online-input" 
                 name="online-name" 
                 placeholder="E-mail"/>
@@ -329,6 +332,7 @@
                     <use href="./img/svg-image/symbol-defs.svg#icon-icon-send"></use>
                 </svg>
             </button>
+            </form>
         </div>
     </div>
     
@@ -340,40 +344,40 @@
                     <svg class="modal-svg"><use href="./img/svg-image/symbol-defs.svg#icon-button-close"></use></svg>
                 </button>
                 <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-                <form>
+                <form class="modal-form">
                     <div class="modal-field">
-                        <label class="modal-label">Имя
+                        <label class="modal-label">Имя</label>
                             <div class="input-wrap">
                                 <input type="text" class="modal-input"
                      name="user-name"
                       placeholder=" "
                       required
                       minlength="2"/>
-                        </label>
+                        
                         <svg class="modal-icon"><use href="./img/svg-image/symbol-defs.svg#icon-person"></use></svg>
                     </div>
                 </div>
                     <div class="modal-field">
-                    <label class="modal-label">Телефон
+                    <label class="modal-label">Телефон</label>
                         <div class="input-wrap">
                     <input type="tel" class="modal-input" 
                     name="user-tel"
                      placeholder=" "
                      required/>
-                    </label>
+                    
                     <svg class="modal-icon">
                         <use href="./img/svg-image/symbol-defs.svg#icon-phone"></use>
                     </svg>
                     </div>
                     </div>
                     <div class="modal-field">
-                    <label class="modal-label">Почта
-                        <div class="input-wrap">
+                    <label class="modal-label">Почта</label>
+                    <div class="input-wrap">
                     <input type="email" class="modal-input" 
                     name="user-emal" 
                     placeholder=" "
                     required/>
-                    </label>
+                    
                     <svg class="modal-icon">
                         <use href="./img/svg-image/symbol-defs.svg#icon-email"></use>
                     </svg>
@@ -394,7 +398,7 @@
                             <span>Соглашаюсь с рассылкой и принимаю
                                 <a href="" class="check-link">Условия договора</a>
                             </span>
-
+                            </label>
                         </div>
             <button type="submit" class="modal-buttons">Отправить</button>   
             </form>
